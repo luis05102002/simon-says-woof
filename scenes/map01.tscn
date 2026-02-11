@@ -21,13 +21,13 @@ size_flags_horizontal = 4
 texture = ExtResource("1_34vk4")
 expand_mode = 1
 
-[node name="CharacterBody2D" parent="." unique_id=983513738 instance=ExtResource("2_rrcok")]
+[node name="doog" parent="." unique_id=983513738 instance=ExtResource("2_rrcok")]
 position = Vector2(602, 360)
 
-[node name="CharacterBody2D2" parent="." unique_id=1314665117 instance=ExtResource("3_jjobw")]
+[node name="person" parent="." unique_id=1314665117 instance=ExtResource("3_jjobw")]
 position = Vector2(427, 250)
 
-[node name="Control" parent="." unique_id=1470227166 instance=ExtResource("4_jjobw")]
+[node name="dialogue" parent="." unique_id=1470227166 instance=ExtResource("4_jjobw")]
 offset_left = 182.0
 offset_top = -90.0
 offset_right = 182.0
