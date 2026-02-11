@@ -37,7 +37,7 @@ offset_bottom = 405.0
 
 [node name="VBoxContainer2" type="VBoxContainer" parent="HBoxContainer" unique_id=1873647386]
 layout_mode = 2
-theme_override_constants/separation = 18
+theme_override_constants/separation = 16
 
 [node name="TextureRect" type="TextureRect" parent="HBoxContainer/VBoxContainer2" unique_id=260576732]
 layout_mode = 2
