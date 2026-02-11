@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://qdkmlqka8t21"]
 
 [ext_resource type="Script" uid="uid://cuqyyljlgggvw" path="res://scripts/keys.gd" id="1_4nldw"]
+[ext_resource type="FontFile" uid="uid://tlcvd5bq06p5" path="res://fonts/song_of_valentine_sans/Song of Valentine Sans.otf" id="2_2jci7"]
 
 [node name="Control" type="Control" unique_id=382168116]
 layout_mode = 3
@@ -13,16 +14,22 @@ script = ExtResource("1_4nldw")
 
 [node name="Button" type="Button" parent="." unique_id=43482404]
 layout_mode = 0
-offset_left = 575.0
-offset_top = 278.0
-offset_right = 616.0
-offset_bottom = 309.0
+offset_left = 488.0
+offset_top = 451.0
+offset_right = 675.0
+offset_bottom = 542.0
+theme_override_constants/outline_size = 5
+theme_override_constants/align_to_largest_stylebox = 20
+theme_override_constants/line_spacing = 20
+theme_override_font_sizes/font_size = 60
 text = "EXIT"
 
 [node name="HBoxContainer" type="HBoxContainer" parent="." unique_id=40473703]
 layout_mode = 0
-offset_right = 40.0
-offset_bottom = 40.0
+offset_left = 593.0
+offset_top = 223.0
+offset_right = 686.0
+offset_bottom = 327.0
 
 [node name="VBoxContainer2" type="VBoxContainer" parent="HBoxContainer" unique_id=1873647386]
 layout_mode = 2
@@ -32,6 +39,9 @@ layout_mode = 2
 
 [node name="Label" type="Label" parent="HBoxContainer/VBoxContainer" unique_id=1426885296]
 layout_mode = 2
+theme_override_constants/outline_size = 5
+theme_override_constants/shadow_outline_size = 20
+theme_override_font_sizes/font_size = 40
 text = "Saltar"
 
 [node name="Label2" type="Label" parent="HBoxContainer/VBoxContainer" unique_id=1157816649]
@@ -45,5 +55,18 @@ text = "Sentarse"
 [node name="Label4" type="Label" parent="HBoxContainer/VBoxContainer" unique_id=1593591764]
 layout_mode = 2
 text = "Hacer caca"
+
+[node name="Label" type="Label" parent="." unique_id=2084192806]
+layout_mode = 0
+offset_left = 484.0
+offset_top = 42.0
+offset_right = 661.0
+offset_bottom = 144.0
+theme_override_colors/font_outline_color = Color(0.0885599, 0.0885599, 0.0885599, 1)
+theme_override_constants/outline_size = 20
+theme_override_constants/shadow_outline_size = 20
+theme_override_fonts/font = ExtResource("2_2jci7")
+theme_override_font_sizes/font_size = 82
+text = "KEYS"
 
 [connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
