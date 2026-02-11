@@ -10,9 +10,11 @@ config_version=5
 
 [application]
 
-config/name="Simon says:  WOOF!"
+config/name="Simon says: WOOF!"
+run/main_scene="uid://bglucmjfr8hi5"
 config/features=PackedStringArray("4.6", "Forward Plus")
-config/icon="res://icon.svg"
+boot_splash/stretch_mode=4
+config/icon="uid://bjbjvkled7o5y"
 
 [physics]
 
