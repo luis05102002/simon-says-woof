@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bob6ff4ebk56x"
-path="res://.godot/imported/perrointerrogacion.png-e5ef5b2b818089e1ba8b56771a4f5c47.ctex"
+uid="uid://b78tu4bka71ox"
+path="res://.godot/imported/ded_dog.png-515fbd04de2781c20385272e8ae35bcf.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Design/Animation/perrointerrogacion.png"
-dest_files=["res://.godot/imported/perrointerrogacion.png-e5ef5b2b818089e1ba8b56771a4f5c47.ctex"]
+source_file="res://assets/Design/Animation/ded_dog.png"
+dest_files=["res://.godot/imported/ded_dog.png-515fbd04de2781c20385272e8ae35bcf.ctex"]
 
 [params]
 
