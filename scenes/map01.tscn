@@ -35,4 +35,3 @@ offset_right = 225.0
 offset_bottom = -83.0
 
 [node name="CanvasLayerUI" parent="." unique_id=347334777 instance=ExtResource("5_lart6")]
-script = null
