@@ -8,6 +8,8 @@ extends CharacterBody2D # DOG
 var is_busy: bool = false
 
 func _process(_delta: float):
+	if is_busy:
+		return
 	# ANIMATIONS
 	if Input.is_action_just_pressed("move_up"):
 		play_anim("jump",boing_sound)
@@ -23,8 +25,6 @@ func _process(_delta: float):
 func play_anim(anim_name: String, sound_node: AudioStreamPlayer2D = null):
 	is_busy = true
 	sprite.play(anim_name)
-	if sound_node:
-		sound_node.play()
-
-func _on_animation_finished():
+	sound_node.play()
+	await sprite.animation_finished
 	is_busy = false
