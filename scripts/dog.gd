@@ -11,13 +11,13 @@ func _process(_delta: float):
 	if is_busy:
 		return
 	# ANIMATIONS
-	if Input.is_action_just_pressed("move_up"):
+	if Input.is_action_pressed("move_up"):
 		play_anim("jump",boing_sound)
-	elif Input.is_action_just_pressed("move_down"):
+	elif Input.is_action_pressed("move_down"):
 		play_anim("sit")
-	elif Input.is_action_just_pressed("move_left"):
+	elif Input.is_action_pressed("move_left"):
 		play_anim("bark",woof_sound)
-	elif Input.is_action_just_pressed("move_right"):
+	elif Input.is_action_pressed("move_right"):
 		play_anim("poop",pop_sound)
 	elif not sprite.is_playing():
 		sprite.play("static")
